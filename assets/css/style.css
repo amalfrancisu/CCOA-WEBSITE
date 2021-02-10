@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding: 8px 0 12px 25px;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
 .nav-menu .active > a{
