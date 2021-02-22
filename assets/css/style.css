@@ -435,7 +435,7 @@ background: linear-gradient(to bottom right, #fdefc0, #FFFFFF); /* W3C, IE 10+/ 
     text-align: center;
   }
   #hero .hero-img img {
-    width: 50%;
+    width: 35%;
   }
 }
 
@@ -453,13 +453,22 @@ background: linear-gradient(to bottom right, #fdefc0, #FFFFFF); /* W3C, IE 10+/ 
     margin-bottom: 30px;
   }
   #hero .hero-img img {
-    width: 70%;
+    width: 60%;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 60%;
+    margin-top: 10%;
+  }
+}
+@media (max-width: 400px) {
+  #hero h1{
+    font-size: 20px;
+  }
+  #hero h2{
+    font-size: 14px;
   }
 }
 
@@ -1650,4 +1659,46 @@ section {
 }
 .title .title-blue {
   color: #26264b;
+}
+
+svg#play {
+  width:90px;
+  margin-left: 20%;
+  display:inline-block;
+  cursor: pointer;
+  transform-origin: 50% 50%;
+}
+
+svg#play #triangle {
+  fill:rgba(22,22,22,0);
+  transition:500ms;
+  transform-origin: 50% 50%;
+}
+svg#play:hover #triangle {
+  fill: rgb(168, 50, 66);
+  transform-origin: 50% 50%;
+}
+
+ svg #lineOne, svg #lineTwo {
+  transform-origin: 50% 50%;
+  transition: 1s;
+} 
+
+ svg:hover #lineOne {
+  transform: rotate(260deg);
+   -webkit-transform: rotate(260deg);
+-moz-transform: rotate(260deg);
+-o-transform: rotate(260deg);
+   transform-origin: 50% 50%;
+} 
+
+ svg:hover #lineTwo {
+  transform: rotate(-450deg);
+   transform-origin: 50% 50%;
+} 
+@media (max-width: 575px) {
+  svg#play {
+    width:70px;
+  }
+
 }
