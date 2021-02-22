@@ -690,20 +690,8 @@ section {
   color: #6f6f6f;
 }
 
-@media (max-width: 1024px) {
-  .counts .image {
-    text-align: center;
-  }
-  .counts .image img {
-    max-width: 70%;
-  }
-}
 
-@media (max-width: 667px) {
-  .counts .image img {
-    max-width: 100%;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Services
